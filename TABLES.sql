@@ -53,9 +53,9 @@ CREATE TABLE DELIVIERIES (
 -- FETCH DATA FOR TABLE 1
 COPY MATCHES
 FROM
-	'C:\Users\Desktop\IPL_Database\IPL_matches.csv' CSV HEADER;
+	'C:\Users\Desktop\IPL_Database\IPL_matches_record.csv' CSV HEADER;
 
 -- FETCH DATA FOR TABLE 2
 COPY DELIVIERIES
 FROM
-	'C:\Users\Desktop\IPL_Database\IPL_Ball.csv' CSV HEADER;
+	'C:\Users\Desktop\IPL_Database\IPL_Balls_deliveries.csv' CSV HEADER;
